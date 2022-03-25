@@ -1,0 +1,31 @@
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #e22fb5; }
+  40%  { background: #c0866f; }
+  60%  { background: #07145c; }
+  80%  { background: #61046d; }
+  100% { background: #33CCCC; }
+  }
+
+body {
+  background: #e6c9e9; /* Fallback */
+  animation: color 20s infinite linear;
+  text-align: center;
+  padding: 2em;
+  margin: 0;
+  /* font-family: sans-serif; */
+}
+
+@font-face {
+  font-family: "ArtBrewery";
+  src: local('ArtBrewery'),
+   url("./Fonts/Art-Brewery.ttf") format("truetype");
+  font-weight: bold;
+  }
+    
+@font-face {
+  font-family: "CandyShop";
+  src: local('CandyShop'),
+  url("./Fonts/Candy-Shop.ttf") format("truetype");
+  font-weight: bold;
+}  

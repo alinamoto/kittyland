@@ -1,0 +1,23 @@
+.font-link {
+    font-family: 'Indie Flower', cursive;
+  }
+
+.font-face-gm {
+    font-family: "ArtBrewery";
+   }
+
+.font-face {
+    font-family: "CandyShop";
+}
+
+.title {
+    font-family: 'CandyShop';
+    font-optical-sizing: auto;
+    color: white;
+    font-weight: 300;
+}
+
+.userName {
+    font-family: "Indie Flower";
+   font-size: 2rem;
+}
